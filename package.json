@@ -1,0 +1,31 @@
+{
+  "name": "backend-checador",
+  "version": "1.0.0",
+  "description": "Back-End para el Sistema de Checador ( Aplicativo especial, posterior generalización )",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BanderoChinoZF/backend-checador.git"
+  },
+  "keywords": [],
+  "author": "Ing. Luis Angel Zaragoza Farrera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BanderoChinoZF/backend-checador/issues"
+  },
+  "homepage": "https://github.com/BanderoChinoZF/backend-checador#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "moment": "^2.29.1",
+    "morgan": "^1.10.0",
+    "pg-promise": "^10.11.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
